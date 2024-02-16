@@ -5,6 +5,7 @@ This is an AI Chat app that can help you optimize your resume.
 - `python -m venv venv`
 - `.\venv\Scripts\Activate`
 - `pip install -r requirements.txt`
+- Replace the .env.sample with your own OpenAI API key
 - `cp .env.sample .env`
 - Change the `.env` file to match your environment
 - `streamlit run resumeai.py` to run the resume feedback and optimization AI
