@@ -16,7 +16,7 @@ st.title("ChatGPT-like clone")
 
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
-    base_url=os.getenv("OPENAI_API_BASE")
+    # base_url=os.getenv("OPENAI_API_BASE")
 )
 
 if "openai_model" not in st.session_state:
