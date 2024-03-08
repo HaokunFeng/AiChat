@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'resumechat'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_225CA1D1AF11406FB96A8553CFF5B595 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_561A991D5CA64251875641318ABA7A10 }}
